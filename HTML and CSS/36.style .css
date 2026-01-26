@@ -1,0 +1,24 @@
+a{
+    font-size: 50px;
+    padding: 5px 15px;
+    border: 5px solid black;
+    border-radius: 20px;
+    color: red;
+    text-decoration: none;
+    background-color: green;
+}
+
+a:hover{
+    color: beige;
+    background-color: black;
+}
+ 
+
+a:active{
+    color: yellow;
+}
+
+a:visited{
+    color: brown;
+    background-color: beige;
+}

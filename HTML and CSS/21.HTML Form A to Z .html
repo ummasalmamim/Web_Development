@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Sign Up Form</h1>
+    <hr>
+    <br>
+    <form action="#" method="post">
+
+        <label for="user">Name:</label>                                              <!--for name-->
+        <input type="text" id="user" name="user" placeholder="Enter your name"> 
+        <br><br>
+
+        <label for="email">Email:</label>                                           <!--for email-->
+        <input type="email" id="email" name="usermail" required placeholder="Enter your mail id">
+        <br><br>
+
+        <label for="pass">Password:</label>                                       <!--for password-->
+        <input type="password" id="pass" name="userpass" placeholder="Enter your password">
+        <br><br>
+
+        <label for="phone">Phone Number:</label>                                 <!--for phone number-->
+        <select name="code">
+            <option value="+880">+880</option>
+            <option value="+880">+990</option>
+            <option value="+880">+110</option>
+            <option value="+880">+550</option>
+            <option value="+880">+001</option>
+        </select>
+        <input type="number" id="phone" name="userphonenum" required placeholder="Enter your number 123*** " >
+        <br><br>
+        
+        <label for="counrty">Country:</label>                       <!--for Country-->
+        <input list="con">
+        <datalist id="con">
+            <option value="Bangladesh"></option>
+            <option value="India"></option>
+            <option value="China"></option>
+            <option value="Nepal"></option>
+        </datalist>
+        <br><br>
+
+        Gender: <br>                                                      <!--for Gender-->
+        <input type="radio" id="genderM" name="gender" >      <!--if input age dei . male asbe -->
+        <label for="genderM" >Male</label>                     <!--if label age die male. asbe-->
+                                                       
+        <input type="radio" id="genderF" name="gender" >
+        <label for="genderF">Female</label>
+         <br><br>
+
+         <label for ="date">Date of Birth:</label>          <!--Date of birth select from calender-->
+         <input type="date" id="date" name="date">
+         <br><br>
+
+         <label for ="date">Date of Birth:</label>                      <!--Date of birth by typed-->
+         <input type="num" id="date" name="date">
+         <br><br>
+
+         <label for="time">Time</label>                                <!--for Time-->
+         <input type="time" id="time" name="tm">   
+         <br><br>       
+         
+         <label for="color">Your Favourite Colour:</label>             <!--for Colour-->
+         <input type="color" id="colour" name="colors">
+         <br><br>
+
+         <label for="file">Attach Your Picture File</label>           <!--for attach file-->
+         <input type="file" id="file" name="fl">
+         <br><br>
+
+        Do you have any vehicle?                                           <!--for vehicle-->
+         <input type="checkbox" id="vehicle1" name="vehicle">
+         <label for="vehicle1">I have a Bike</label>
+         <input type="checkbox" id="vehicle1" name="vehicle">
+         <label for="vehicle1">I have a Bycycle</label>
+        <br><br>
+                                                                     <!--for commentbot-->
+        <textarea name="comment"cols="30" rows="10" placeholder="Comment Here"></textarea>
+        <br><br>
+
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+        
+        
+         
+
+
+ 
+          
+    </form>
+</body>
+</html>

@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    display: inline-block;   /*linne theke block convert*/
+}
+
+span{
+    text-align: center;
+}
+
+ul li{
+    display: inline;
+}

@@ -1,0 +1,8 @@
+P{
+    margin: 50px 20px 80px 90px;
+    border: 5px solid yellowgreen;
+    outline-width: 8px;
+    outline-style: solid;
+    outline-color: blueviolet;
+    outline-offset: 7px;
+}

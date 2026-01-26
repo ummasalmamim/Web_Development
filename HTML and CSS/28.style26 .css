@@ -1,0 +1,12 @@
+.p1{
+    border-width: 5px;
+    border-style: solid;
+    border-color: blueviolet;
+    border-radius: 18px;
+}
+
+p{
+    border: 5px solid red;
+    border-radius: 20px;
+}
+

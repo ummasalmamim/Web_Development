@@ -1,0 +1,20 @@
+a:hover{                              /*pseudo class*/
+    color: blue;
+    background-color: black;
+}
+
+
+h2:nth-child(2){        /*pseudo class*/
+    color: blue;
+}
+
+
+p::first-letter{
+    color: red;         /*pseudo element*/
+    font-size: 30px;
+}
+
+
+h1::after{                                  /*pseudo element*/
+    content: url(43.image-1.png);
+}

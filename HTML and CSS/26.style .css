@@ -1,0 +1,15 @@
+h1{
+    color:brown;
+    background-color: beige;
+}
+
+body{
+    background-color: black;
+    background-image: url(26.image.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+p{
+    color:white;
+}

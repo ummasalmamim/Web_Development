@@ -1,0 +1,40 @@
+.box{
+
+    
+    height: 400px;
+    width: 400px;
+    border: 15px solid pink;
+    border-radius: 50%;
+    margin: 100px auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    animation: box 2s infinite forwards;
+
+}
+
+
+@keyframes box{
+    0%{border-color: orangered;transform: scale(1);}
+    25%{border-color: yellow;transform: scale(1);}
+    50%{border-color: blue;transform: scale(1);}
+    75%{border-color: green;transform: scale(1);}
+    100%{border-color:darkmagenta;transform:scale(1) };
+
+}
+
+.circle{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    animation: circle 2s infinite alternate;
+}
+
+@keyframes circle{
+    0%{border-color: rgb(255, 0, 106);border-width: 10px;}
+    25%{border-color: rgb(51, 255, 0);border-width: 20px;}
+    50%{border-color: rgb(0, 132, 255);border-width: 30px;}
+    75%{border-color: rgb(230, 255, 4);border-width:40px ;}
+    100%{transform: rotate(360deg)};
+}
+

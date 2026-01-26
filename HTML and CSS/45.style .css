@@ -1,0 +1,27 @@
+img{
+    width: 400px;
+}
+
+img:hover{
+    opacity: 0.5;
+}
+
+
+.mim{
+    width: 700px;
+    height: 400px;
+    background: url(43.image-1.png) no-repeat center;
+    overflow: hidden;
+}
+
+P{
+    font-size: 50px;
+}
+
+.box1 p{
+    text-align: center;
+    background-color: cadetblue;
+    padding: 10px;
+    margin-top: 100px;
+    opacity: 0.5;                   /*opacity er value o to 1 */
+}

@@ -1,0 +1,34 @@
+
+.p1{
+    border: 3px solid red;
+    width: 400px;
+    margin: auto;
+}
+
+.p2{
+    border: 3px solid green;
+    max-width: 400px;
+    margin: auto;
+}
+
+
+.p3{
+    width: 400px;
+    height: 300px;
+    border: 5px solid black;
+}
+
+.p4{
+    width: 400px;
+    height: 300px;
+    border: 5px solid black;
+    overflow: scroll;
+}
+
+
+.p5{
+    width: 400px;
+    height: 300px;
+    border: 5px solid black;
+    overflow: auto;                 /* overflow:hidden dile border er bahirer text dekha jabe na */
+}                                   /* overflow:visible dile overflow thakne no change*/

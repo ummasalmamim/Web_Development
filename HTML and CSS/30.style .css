@@ -1,0 +1,16 @@
+.mim{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    border: 10px blue solid;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+/*comment:  margin: 70px 80px 50px 60px;
+            (top right bottom left)
+            margin: auto;
+            middel point a asbe horizontal borabot*/
+   
+}

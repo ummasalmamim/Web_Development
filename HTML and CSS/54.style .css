@@ -1,0 +1,50 @@
+/*  comment: * diye sob gulo eksathe call kore hoy*/
+
+*{              
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main{
+    width: 75%;
+    margin: 10px auto;
+    border: 2px solid gainsboro;
+    color: white;
+    display: grid;
+    grid-template-rows: 60px 100px 200px 60px;
+    grid-template-columns: repeat(3,1fr)150px;
+    grid-gap:10px
+}
+
+.div1{
+    background-color: rgb(226, 43, 104);
+    grid-column: 1/-1;
+}
+
+.div2{
+    background-color: rgb(43, 189, 226);
+}
+
+.div3{
+    background-color: rgb(43, 226, 89);
+}
+.div4{
+    background-color: rgb(226, 131, 43);
+}
+.div5{
+    background-color: rgb(204, 252, 94);
+    grid-row: 2/4;
+    grid-column: 4/5;
+}
+.div6{
+    background-color: rgb(43, 226, 134);
+    grid-column: 1/4;
+}
+.div7{
+    background-color: rgb(211, 138, 138);
+    grid-column: 1/-1;
+} 

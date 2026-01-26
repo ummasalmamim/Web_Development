@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px red;  /*text-shadow: right/left top/botom blur colour*/
+}
+
+
+.box1{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid rgb(0,0,0,0.5);
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.5),-5px -5px 5px rgb(0,0,0,0.5);
+
+}
+
+
+.box1 img{
+    width: 100%;
+}
+
+h3{
+    margin: 0;
+}

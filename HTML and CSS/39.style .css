@@ -1,0 +1,17 @@
+table,th,td{
+    border: 5px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table{
+    width: 70%;
+}
+
+th{
+    color: blue;
+}
+
+td{
+    color: darkred;
+}
