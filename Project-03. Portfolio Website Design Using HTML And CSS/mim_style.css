@@ -1,0 +1,673 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*header start*/
+
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header .logo{
+    margin-left: 200px;
+    padding: 20px;
+    
+}
+
+
+header .nav{
+    position: absolute;
+    top:0;
+    right:0;
+    margin-right: 200px;
+}
+
+
+header .nav ul{
+    list-style: none;
+}
+
+
+header .nav ul li{
+    float: left;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+
+header .nav ul li a{
+    text-decoration: none;
+    color: rgb(71, 68, 68);
+    text-decoration: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+header .nav ul li a:hover{
+    color: #7f97ff;
+}
+
+/*header start*/
+
+/*section one start*/
+
+.section_one{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 665px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+}
+
+
+.half1,.half2{
+    width: 50%;
+}
+
+
+.half1{
+    margin-left: 230px;
+    margin-bottom: 120px;
+}
+
+
+.half2{
+    padding-right: 160px;
+    margin-top: 50px;
+}
+
+
+.half2 img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.half1 h3{
+    font-weight: normal;
+}
+
+
+.half1 h1{
+    font-size: 60px;
+}
+
+
+.half1 p{
+
+    color: rgba(78,78,78,0.7);
+}
+
+
+.half1 input{
+    padding: 8px 20px;
+    background-color: #8393ff;
+    outline: none;
+    color: white;
+    border: 1px solid #8393ff ;
+    font-size: 15px;
+}
+
+.half1 input:hover{
+    box-shadow: 5px 10px 30px rgba(130,147,255,0.5);
+    transition: all 0.5s ease-in 0.1s;
+    outline:none;
+}
+
+/*section one end*/
+
+/*section two start*/
+
+.section_two{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_two div{
+    width:40% ;
+    margin: 0 auto;
+}
+
+.section_two img{
+    width: 90%;
+    height: auto;
+}
+
+.section_two .mim{
+    padding-left: 150px;
+}
+
+.salma{
+    font-weight: normal;
+    color: rgba(0,0,0,0.7);
+    font-size: 15px;
+}
+
+.salma h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.salma p{
+    font-size: 16px;
+    color: rgba(0,0,0,0.6);
+    width: 80%;
+}
+
+.salma input{
+    font-size: 20px;
+    padding: 12px 16px;
+    outline: none;
+    color:white;
+    background-color: #8293ff;
+    border: none;
+}
+
+.salma input:hover{
+    box-shadow: 5px 10px 30px rgba(130,147,255,0.5);
+    transition: all 0.5s ease-in 0.1s;
+    outline:none;
+}
+
+/*section two end*/
+
+/*section three start*/
+
+.section_three{
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text1 h1{
+    font-size: 40px;
+    line-height: 10px;
+}
+
+.text1 p{
+    width: 670px;
+    color: rgba(0,0,0,0.6);
+    margin: 0 auto;
+}
+
+.services{
+    width: 80%;
+    margin: 0 autoFGH auto;
+    padding-top: 45px;
+
+}
+
+.service1, .service2{
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.service2{
+    padding-top: 30px;
+}
+
+.service1 div, .service2 div{
+    width: 32%;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+
+}
+
+
+.services i{
+    font-size: 45px;
+    color: rgba(0,0,0,0.7);
+}
+
+.services h1{
+    color: rgba(0,0,0,0.9);
+}
+
+.services p{
+    color: rgba(0,0,0,0.6);
+}
+
+
+
+.service1 div:hover{
+    background-color: #8293ff;
+    color: white;
+}
+
+.section_one div:hover i{
+    color: white;
+}
+
+.section_one div:hover h1{
+    color: white;
+}
+
+.section_one div:hover p{
+    color: white;
+}
+
+
+
+
+.service2 div:hover{
+    background-color: #8293ff;
+    color: white;
+}
+
+.section_two div:hover i{
+    color: white;
+}
+
+.section_two div:hover h1{
+    color: white;
+}
+
+.section_two div:hover p{
+    color: white;
+}
+
+
+/*section three end*/
+
+
+/*section four start*/
+
+.section_four{
+    width: 100%;
+    height: 300px;
+    background-color: #8293ff;
+}
+
+.section_four div{
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    left: 200px;
+
+}
+
+
+.section_four h1{
+    font-size: 45px;
+    line-height: 0px;
+  
+}
+
+
+.section_four h1,p{
+    text-align: center;
+    color: white;
+}
+
+
+/*section four end*/
+
+
+/* portfolio part start */
+/* section five start */
+
+.section_five{
+    width: 100% ;
+    box-sizing: border-box;
+}
+
+.section_five .port_text{
+    text-align: center;
+    padding: 100px 0;
+}
+
+
+.section_five .port_text h1{
+    font-size: 40px;
+    color: rgba(0,0,0,0.9);
+}
+
+
+.section_five .port_text p{
+    color: rgba(0,0,0,0.7);
+    margin-top: -20px;
+    margin-bottom: 30;
+}
+
+.section_five .port_img{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.section_five .port_img div{
+    width: 340px;
+    height: 339px; 
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.section_five .port_img h1{
+    font-size: 20px;
+    color: rgba(0,0,0,0.9);
+}
+
+.section_five .port_img p{
+    color: rgba(0,0,0,0.7);
+    line-height: 0;
+}
+
+
+.section_five figure{
+    background: linear-gradient(40deg, #8490ff 40%, #62bdfc 100%);
+    width: 340px;
+    height: 339px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 3%;
+}
+
+.section_five figure:hover img{
+    opacity: 0.3;
+    transition: all .3s ease-in-out;
+}
+
+
+/* portfolio part end */
+/* section five end */
+
+
+
+/* section six start*/
+
+/* pricing table start */
+
+.section_six{
+    width: 100%;   
+    height: 700px;
+    padding-top: 50px;
+}
+
+
+.section_six .text_pricing{
+    text-align: center;
+    padding: 2% 0;
+}
+
+.section_six .text_pricing h1{
+    font-size: 40px;
+    line-height: 0;
+    padding-top: 15px;
+}
+
+.section_six .text_pricing p{
+    color: rgba(0,0,0,0.7);
+}
+
+/* pricing table start */
+
+/*card start*/
+.section_six .card{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+/*card start*/
+
+/* card-1 start*/
+
+.section_six .card1{
+    width: 300px;
+    height: 600px;
+    background-color: rgb(249,249, 255);
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.section_six .card1 p{
+    color: black;
+}
+
+.section_six .card1 h1{
+    font-size: 50px;
+    padding-top: 8px;
+}
+
+.section_six .card1 .price{
+    font-size: 40px;
+}
+
+.section_six .card1 input{
+    outline: none;
+    background-color: #8293ff;
+    color: white;
+    font-size: 25px;
+    padding: 6px 60px;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.section_six .card1:hover{
+    background-color: #8293ff;
+    color: white;
+    transition: all 0.25s ease-in;
+    transform: scaleX(1.05);
+    border: 1px solid rgba(130,147,255,0.5);
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
+}
+
+.section_six .card1:hover input{
+    color: rgba(0,0,0,0.9);
+    background-color: white;
+}
+
+
+.section_six .card1:hover p{
+    color: white
+}    
+
+/* card-1 end*/
+
+
+/* card-2 start*/
+
+
+.section_six .card2{
+    width: 300px;
+    height: 600px;
+    background-color: rgb(249,249, 255);
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+
+.section_six .card2 h1{
+    font-size: 50px;
+    padding-top: 8px;
+}
+
+.section_six .card2 p{
+    color: black;
+}
+
+.section_six .card2 .price{
+    font-size: 40px;
+}
+
+.section_six .card2 input{
+    outline: none;
+    background-color: #8293ff;
+    color: white;
+    font-size: 25px;
+    padding: 6px 60px;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.section_six .card2:hover{
+    background-color: #8293ff;
+    color: white;
+    transition: all 0.25s ease-in;
+    transform: scaleX(1.05);
+    border: 1px solid rgba(130,147,255,0.5);
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
+}
+
+.section_six .card2:hover p{
+    color: white
+}    
+
+
+.section_six .card2:hover input{
+    color: rgba(0,0,0,0.9);
+    background-color: white;
+}
+
+/* card-2 end*/
+
+/* card-3 start*/
+
+.section_six .card3{
+    width: 300px;
+    height: 600px;
+    background-color: rgb(249,249, 255);
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+
+.section_six .card3 h1{
+    font-size: 50px;
+    padding-top: 8px;
+}
+
+.section_six .card3 p{
+    color: black;
+}
+
+.section_six .card3 .price{
+    font-size: 40px;
+}
+
+.section_six .card3 input{
+    outline: none;
+    background-color: #8293ff;
+    color: white;
+    font-size: 25px;
+    padding: 6px 60px;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.section_six .card3:hover{
+    background-color: #8293ff;
+    color: white;
+    transition: all 0.25s ease-in;
+    transform: scaleX(1.05);
+    border: 1px solid rgba(130,147,255,0.5);
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
+}
+
+.section_six .card3:hover p{
+    color: white
+}    
+
+
+.section_six .card3:hover input{
+    color: rgba(0,0,0,0.9);
+    background-color: white;
+}
+
+/* card-3 end*/
+/* section six end*/
+
+
+/* footer start */
+
+footer{
+    background-color: rgb(4,9,30);
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    color: white;
+    margin-top: 200px;
+}
+
+
+footer .foot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+footer .foot .foot1 p{
+    color: rgba(255,255,255,0.5);
+
+}
+
+footer .foot .foot2 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 150px 10px 10px;
+}
+
+footer .foot .foot2 button{
+    font-size: 18px;
+    color: white;
+    background-color: #8293ff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+
+
+footer .foot .foot3 i{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+
+
+footer .foot .foot3 i:hover{
+    color: #8393ff;
+}
+
+/* footer end*/
